@@ -4,6 +4,7 @@ import { LogOut } from 'lucide-react'
 export function Profile() {
   return (
     <div className="grid grid-cols-profile items-center gap-3">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="https://github.com/diego3g.png"
         className="h-10 w-10 rounded-full"

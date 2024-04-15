@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/tailwind-dashboard',
-  output: 'export',
+  basePath: "/tailwind-next",
+  output: "export",
   reactStrictMode: true,
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;
