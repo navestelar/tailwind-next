@@ -6,7 +6,7 @@ export function Profile() {
     <div className="grid grid-cols-profile items-center gap-3">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://github.com/diego3g.png"
+        src="https://github.com/navestelar.png"
         className="h-10 w-10 rounded-full"
         alt=""
       />
