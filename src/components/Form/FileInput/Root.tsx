@@ -1,6 +1,12 @@
 'use client'
 
-import { ComponentProps, createContext, useContext, useId, useState } from "react";
+import {
+  ComponentProps,
+  createContext,
+  useContext,
+  useId,
+  useState,
+} from 'react'
 
 export type RootProps = ComponentProps<'div'>
 
@@ -25,7 +31,9 @@ export function Root(props: RootProps) {
   }
 
   return (
-    <FileInputContex.Provider value={{ id, files, onFileSelected: handleSelectedFiles }}>
+    <FileInputContex.Provider
+      value={{ id, files, onFileSelected: handleSelectedFiles }}
+    >
       <div {...props} />
     </FileInputContex.Provider>
   )

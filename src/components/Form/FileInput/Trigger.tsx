@@ -1,6 +1,6 @@
 'use client'
-import { UploadCloud } from "lucide-react";
-import { useFileInput } from "./Root";
+import { UploadCloud } from 'lucide-react'
+import { useFileInput } from './Root'
 
 export function Trigger() {
   const { id } = useFileInput()
@@ -16,11 +16,10 @@ export function Trigger() {
 
       <div className="flex flex-col items-center gap-1">
         <span className="text-sm">
-          <span className="font-semibold to-violet-700">Click to upload</span> or drag and drop
+          <span className="to-violet-700 font-semibold">Click to upload</span>{' '}
+          or drag and drop
         </span>
-        <span className="text-xs">
-          SVG, PNG, JPG or GIF (max. 800x400px)
-        </span>
+        <span className="text-xs">SVG, PNG, JPG or GIF (max. 800x400px)</span>
       </div>
     </label>
   )

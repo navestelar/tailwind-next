@@ -1,4 +1,4 @@
-import { LogOut } from "lucide-react";
+import { LogOut } from 'lucide-react'
 
 export function Profile() {
   return (
